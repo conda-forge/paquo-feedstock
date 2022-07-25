@@ -10,6 +10,7 @@ source:
   sha256: cfec4012f98f462bb8903758d426dd301ce8c409d72cae729bb2530d5167a9a4
 
 build:
+  noarch: python
   entry_points:
     - paquo = paquo.__main__:main
   script: {{ PYTHON }} -m pip install . -vv
