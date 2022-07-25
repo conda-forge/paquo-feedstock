@@ -14,21 +14,20 @@ build:
   entry_points:
     - paquo = paquo.__main__:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7
     - setuptools-scm
   run:
     - dynaconf >=3,!=3.1.0
-    - importlib-resources  # [py<37]
     - jpype1 >=1.0.1
     - packaging
-    - python
+    - python >=3.7
     - shapely
-    - typing-extensions  # [py<38]
+    - typing-extensions >=4.0
 
 test:
   imports:
