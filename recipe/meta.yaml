@@ -1,5 +1,5 @@
 {% set name = "paquo" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/paquo-{{ version }}.tar.gz
-  sha256: cfec4012f98f462bb8903758d426dd301ce8c409d72cae729bb2530d5167a9a4
+  sha256: 3500c73b8ed9f2252c53ce50c1455666d26c13bc73196f856b336cab325bd66f
 
 build:
   noarch: python
   entry_points:
     - paquo = paquo.__main__:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
