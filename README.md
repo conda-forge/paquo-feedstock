@@ -1,11 +1,11 @@
-About paquo
-===========
+About paquo-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/paquo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bayer-science-for-a-better-life/paquo
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/paquo-feedstock/blob/main/LICENSE.txt)
 
 Summary: library for interacting with QuPath
 
