@@ -19,13 +19,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
+    - setuptools
     - setuptools-scm
   run:
     - dynaconf >=3,!=3.1.0
-    - jpype1 >=1.0.1
+    - jpype1 >=1.0.1,!=1.5.1
     - packaging
-    - python >=3.7
+    - python >={{ python_min }}
     - shapely
     - typing-extensions >=4.0
 
