@@ -37,7 +37,9 @@ test:
     - pip check
     - paquo config --help
   requires:
+    - python {{ python_min }}
     - pip
+
 
 about:
   home: https://github.com/bayer-science-for-a-better-life/paquo
