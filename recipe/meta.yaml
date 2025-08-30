@@ -1,5 +1,5 @@
 {% set name = "paquo" %}
-{% set version = "0.8.2" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/paquo-{{ version }}.tar.gz
-  sha256: 26f3ed4d210aaf7ec1a6d6eefdfbb1e4eb207fc3261ee8e310fa02b02c3bd02e
+  sha256: 8d7078b560fb33fe91fd438763dc47fb95f4a91379dafacaf89e86754691b561
 
 build:
   noarch: python
